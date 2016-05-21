@@ -1,0 +1,24 @@
+{
+    "mygatewayappApp": {
+        "book" : {
+            "home": {
+                "title": "Books",
+                "createLabel": "Crear nuevo Book",
+                "createOrEditLabel": "Crear o editar Book",
+                "search": "Search for Book"
+            },
+            "created": "Un nuevo Book ha sido creado con el identificador {{ param }}",
+            "updated": "Un Book ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Book ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Book {{ id }}?"
+            },
+            "detail": {
+                "title": "Book"
+            },
+            "name": "Name",
+            "publishDate": "Publish Date",
+            "author": "Author"
+        }
+    }
+}

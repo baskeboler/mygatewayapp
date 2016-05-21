@@ -1,0 +1,26 @@
+
+<div>
+    <h2><span translate="mygatewayappApp.book.detail.title">Book</span> {{vm.book.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span translate="mygatewayappApp.book.name">Name</span></dt>
+        <dd>
+            <span>{{vm.book.name}}</span>
+        </dd>
+        <dt><span translate="mygatewayappApp.book.publishDate">Publish Date</span></dt>
+        <dd>
+            <span>{{vm.book.publishDate | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span translate="mygatewayappApp.book.author">Author</span></dt>
+        <dd>
+            <span>{{vm.book.author}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>
